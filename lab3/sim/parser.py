@@ -16,6 +16,8 @@ for line in fp:
         j = j + 1
 
         if j == mem_depth:
+            fp.close()
+            fwp.close()
             sys.exit()
 
 fp.close()
