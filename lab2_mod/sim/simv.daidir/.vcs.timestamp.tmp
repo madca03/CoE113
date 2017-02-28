@@ -1,0 +1,101 @@
+1        
+0 ../mapped/single_cycle_mips_mapped.sdf_c
+36
++cli+1
++itf+/usr/synopsys/vcs/I-2014.03/amd64/lib/vcsdp.tab
++memcbk
++neg_tchk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs/I-2014.03/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so /usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs/I-2014.03/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Xcbug=0x1
+-Xvcs_run_simv=1
+-debug=1
+-full64
+-gen_obj
+-l
+-picarchive
+-pp_used
+../lib/saed90nm.v
+../mapped/single_cycle_mips_mapped.v
+../memory/datamem.v
+../memory/datamem_ans.v
+../memory/instmem.v
+/usr/synopsys/vcs/I-2014.03/amd64/bin/vcs1
+tb_proc.v
+vcs.log
+46
+sysc_uni_pwd=/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/sim
+XMODIFIERS=@im=ibus
+XDG_VTNR=1
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/10005
+XDG_MENU_PREFIX=gnome-
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-mark.allen.agaton-T7KWBJ/database
+WINDOWPATH=1
+VTE_VERSION=3804
+VMR_MODE_FLAG=64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=vcs.log
+VCS_HOME=/usr/synopsys/vcs/I-2014.03
+VCS_DEPTH=0
+VCS_BIN=/usr/synopsys/vcs/I-2014.03/bin/
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=amd64
+USERNAME=mark.allen.agaton
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs/I-2014.03/amd64
+SYN_BIN=/usr/synopsys/syn/I-2013.12/bin/
+SSH_AUTH_SOCK=/run/user/10005/keyring/ssh
+SSH_AGENT_PID=3386
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3195,unix/unix:/tmp/.ICE-unix/3195
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+OVA_UUM=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HISTCONTROL=ignoredups
+GPG_AGENT_INFO=/run/user/10005/keyring/gpg:0:1
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+GJS_DEBUG_OUTPUT=stderr
+GDM_LANG=en_US.UTF-8
+GDMSESSION=gnome-classic
+DESKTOP_SESSION=gnome-classic
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-licOBbFsXl,guid=b9985a9187069e4c082b537258abdf1d
+0
+8
+1487659943 ../mapped/single_cycle_mips_mapped.sdf
+1487660071 tb_proc.v
+1487659937 ../lib/saed90nm.v
+1487659938 ../mapped/single_cycle_mips_mapped.v
+1487659969 ../memory/datamem_ans.v
+1487659969 ../memory/datamem.v
+1487659969 ../memory/instmem.v
+1393560725 /usr/synopsys/vcs/I-2014.03/amd64/lib/vcsdp.tab
+4
+0 
+1393562378 /usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so
+1393562197 /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so
+1393562054 /usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so

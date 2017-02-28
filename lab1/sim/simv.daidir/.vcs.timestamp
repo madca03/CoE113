@@ -1,0 +1,71 @@
+1        
+0 ../mapped/rf_mapped.sdf_c
+28
++cli+1
++itf+/usr/synopsys/vcs/I-2014.03/amd64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs/I-2014.03/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mldflags=
+-Mobjects= /usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so /usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs/I-2014.03/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Xcbug=0x1
+-debug=1
+-full64
+-gen_obj
+-picarchive
+-pp_used
+../rtl/rf.v
+/usr/synopsys/vcs/I-2014.03/amd64/bin/vcs1
+tb_rf.v
+27
+sysc_uni_pwd=/home/mark.allen.agaton/CoE113/lab1/sim
+XDG_SESSION_ID=7
+XDG_RUNTIME_DIR=/run/user/10005
+VMR_MODE_FLAG=64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/synopsys/vcs/I-2014.03
+VCS_DEPTH=0
+VCS_BIN=/usr/synopsys/vcs/I-2014.03/bin/
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=amd64
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs/I-2014.03/amd64
+SYN_BIN=/usr/synopsys/syn/I-2013.12/bin/
+SSH_TTY=/dev/pts/2
+SSH_CONNECTION=10.80.71.75 49527 10.158.23.215 22
+SSH_CLIENT=10.80.71.75 49527 22
+SSH_AUTH_SOCK=/tmp/ssh-fsZbBvjb2p/agent.4612
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HISTCONTROL=ignoredups
+0
+4
+1486458450 ../mapped/rf_mapped.sdf
+1486459720 tb_rf.v
+1486458168 ../rtl/rf.v
+1393560725 /usr/synopsys/vcs/I-2014.03/amd64/lib/vcsdp.tab
+4
+0 
+1393562378 /usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so
+1393562197 /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so
+1393562054 /usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so
+1486536587 simv.daidir

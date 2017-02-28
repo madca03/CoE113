@@ -1,0 +1,6 @@
+/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/lib/saed90nm.v
+/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/mapped/single_cycle_mips_mapped.v
+/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/memory/datamem.v
+/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/memory/datamem_ans.v
+/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/memory/instmem.v
+/home/mark.allen.agaton/CoE113/lab2_mod2/lab2/sim/tb_proc.v

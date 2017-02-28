@@ -1,0 +1,2 @@
+Command: vcs ../mapped/single_cycle_mips_mapped.v ../memory/datamem.v ../memory/instmem.v \
+../lib/saed90nm.v tb_proc.v -full64 -debug_pp +neg_tchk -R -l vcs.log

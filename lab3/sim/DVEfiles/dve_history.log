@@ -1,0 +1,109 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/mark.allen.agaton/CoE113/lab2/sim/tb_proc.vpd -design V1} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab1/sim/tb_rf_rtl.vpd -design V2} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab1/sim/tb_rf.vpd -design V1} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab1/sim/tb_rf.vpd -design V3} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab1.5/tb_mem.vpd -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1359
+gui_set_state_value -category Layout -key child_console_size_y -value 170
+gui_set_state_value -category Layout -key child_data_size_x -value 208
+gui_set_state_value -category Layout -key child_data_size_y -value 389
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 165
+gui_set_state_value -category Layout -key child_hier_size_y -value 389
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 989
+gui_set_state_value -category Layout -key child_source_size_y -value 384
+gui_set_state_value -category Layout -key child_wave_colname -value 195
+gui_set_state_value -category Layout -key child_wave_colvalue -value 195
+gui_set_state_value -category Layout -key child_wave_left -value 394
+gui_set_state_value -category Layout -key child_wave_right -value 960
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 39
+gui_set_state_value -category Layout -key main_size_x -value 1359
+gui_set_state_value -category Layout -key main_size_y -value 705
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1364
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 554
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 59
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 67
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1418
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 733
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/mark.allen.agaton/CoE113/lab3/sim/tb_proc.vpd -design V1
+gui_list_expand -id  Hier.1   tb_single_cycle_mips
+gui_list_expand -id  Hier.1   tb_single_cycle_mips.UUT
+gui_list_select -id Hier.1 -current_item_name tb_single_cycle_mips.UUT -current_item_type Scope  -selected  { tb_single_cycle_mips.UUT   }
+gui_list_select_all -id Hier.1
+gui_list_select -id Hier.1 -current_item_name tb_single_cycle_mips -current_item_type Scope  -selected  { tb_single_cycle_mips.UUT  tb_single_cycle_mips  tb_single_cycle_mips.D1  tb_single_cycle_mips.D2  tb_single_cycle_mips.I1  tb_single_cycle_mips.UUT.A1  tb_single_cycle_mips.UUT.R1   }
+gui_list_select -id Hier.1 -current_item_name tb_single_cycle_mips.UUT.R1 -current_item_type Scope  -selected  { tb_single_cycle_mips.UUT.R1   }
+gui_list_select -id Hier.1 -current_item_name tb_single_cycle_mips.UUT.R1 -current_item_type Scope  -selected  {  }
+gui_list_select -id Hier.1 -current_item_name tb_single_cycle_mips.UUT -current_item_type Scope  -selected  { tb_single_cycle_mips.UUT   }
+gui_list_select -id Data.1 -selected  { {tb_single_cycle_mips.UUT.data_out[31:0]}   }
+gui_list_select_all -id Data.1
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {tb_single_cycle_mips.UUT.inst[31:0]} {tb_single_cycle_mips.UUT.inst_addr[31:0]} {tb_single_cycle_mips.UUT.data_addr[31:0]} {tb_single_cycle_mips.UUT.data_in[31:0]} {tb_single_cycle_mips.UUT.data_out[31:0]} tb_single_cycle_mips.UUT.clk tb_single_cycle_mips.UUT.rst_n tb_single_cycle_mips.UUT.data_wr {tb_single_cycle_mips.UUT.rd_addrA[4:0]} {tb_single_cycle_mips.UUT.rd_addrB[4:0]} {tb_single_cycle_mips.UUT.rd_dataA[31:0]} {tb_single_cycle_mips.UUT.rd_dataB[31:0]} tb_single_cycle_mips.UUT.wr_en {tb_single_cycle_mips.UUT.wr_addr[4:0]} {tb_single_cycle_mips.UUT.wr_data[31:0]} {tb_single_cycle_mips.UUT.opcode[5:0]} {tb_single_cycle_mips.UUT.funct[5:0]} {tb_single_cycle_mips.UUT.aluOpB[31:0]} {tb_single_cycle_mips.UUT.aluSel[1:0]} {tb_single_cycle_mips.UUT.aluRes[31:0]} tb_single_cycle_mips.UUT.aluZ {tb_single_cycle_mips.UUT.aluAdd[1:0]} {tb_single_cycle_mips.UUT.aluSub[1:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.aluRes[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.rd_addrA[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.rd_addrB[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.rd_addrA[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.aluOpB[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.inst_addr[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.inst[31:0]}   }
+gui_marker_move -id  Wave.1 C1 0
+gui_marker_move -id  Wave.1 C1 28728
+gui_seek_criteria -id Wave.1 "Value..." 
+gui_marker_move -id  Wave.1 C1 4009
+gui_wv_zoom_timerange -id  Wave.1 14030 73489
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 51443
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_wv_zoom_timerange -id  Wave.1 8017 65472
+gui_list_select -id Wave.1 -selected  { tb_single_cycle_mips.UUT.wr_en   }
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.inst[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_set_selected_property -id Wave.1 -radix hex
+gui_save_session -reload -default_file
+gui_list_select -id Wave.1 -selected  { tb_single_cycle_mips.UUT.wr_en   }
+gui_marker_move -id  Wave.1 C1 594596
+gui_marker_move -id  Wave.1 C1 75000
+gui_marker_move -id  Wave.1 C1 94868
+gui_list_expand -id  Hier.1   tb_single_cycle_mips.UUT
+gui_list_select -id Hier.1 -current_item_name tb_single_cycle_mips.UUT.R1 -current_item_type Scope  -selected  { tb_single_cycle_mips.UUT.R1   }
+gui_list_select -id Data.1 -selected  { {tb_single_cycle_mips.UUT.R1.rd_dataA[31:0]}   }
+gui_list_select_all -id Data.1
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { tb_single_cycle_mips.UUT.R1.clk tb_single_cycle_mips.UUT.R1.rst_n {tb_single_cycle_mips.UUT.R1.rd_addrA[4:0]} {tb_single_cycle_mips.UUT.R1.rd_addrB[4:0]} {tb_single_cycle_mips.UUT.R1.rd_dataA[31:0]} {tb_single_cycle_mips.UUT.R1.rd_dataB[31:0]} tb_single_cycle_mips.UUT.R1.wr_en {tb_single_cycle_mips.UUT.R1.wr_addr[4:0]} {tb_single_cycle_mips.UUT.R1.wr_data[31:0]} {tb_single_cycle_mips.UUT.R1.regf[31:0][31:0]} } -insertionbar
+gui_zoom -window Wave.2 -full
+gui_list_expand -id  Wave.2   {tb_single_cycle_mips.UUT.R1.regf[31:0][31:0]}
+gui_list_select -id Wave.2 -selected  { {tb_single_cycle_mips.UUT.R1.regf[31:0][31:0]}   }
+gui_marker_move -id  Wave.2 C1 125000
+gui_marker_move -id  Wave.2 C1 104889
+gui_marker_move -id  Wave.2 C1 75000
+gui_marker_move -id  Wave.2 C1 75000
+gui_marker_select -id  Wave.2 { C1 }
+gui_marker_move -id  Wave.2 C1 63468
+gui_marker_move -id  Wave.2 C1 102885
+gui_close_window -window TopLevel.3
+gui_close_window -window TopLevel.2
+gui_save_session -reload -default_file
+gui_list_select -id Data.1 -selected  { {tb_single_cycle_mips.UUT.R1.reg1[31:0]}   }
+gui_list_select_all -id Data.1
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { tb_single_cycle_mips.UUT.R1.clk tb_single_cycle_mips.UUT.R1.rst_n {tb_single_cycle_mips.UUT.R1.rd_addrA[4:0]} {tb_single_cycle_mips.UUT.R1.rd_addrB[4:0]} {tb_single_cycle_mips.UUT.R1.rd_dataA[31:0]} {tb_single_cycle_mips.UUT.R1.rd_dataB[31:0]} tb_single_cycle_mips.UUT.R1.wr_en {tb_single_cycle_mips.UUT.R1.wr_addr[4:0]} {tb_single_cycle_mips.UUT.R1.wr_data[31:0]} {tb_single_cycle_mips.UUT.R1.reg1[31:0]} {tb_single_cycle_mips.UUT.R1.reg2[31:0]} {tb_single_cycle_mips.UUT.R1.reg3[31:0]} {tb_single_cycle_mips.UUT.R1.reg4[31:0]} {tb_single_cycle_mips.UUT.R1.reg5[31:0]} {tb_single_cycle_mips.UUT.R1.reg6[31:0]} {tb_single_cycle_mips.UUT.R1.reg7[31:0]} {tb_single_cycle_mips.UUT.R1.reg8[31:0]} {tb_single_cycle_mips.UUT.R1.reg9[31:0]} {tb_single_cycle_mips.UUT.R1.reg10[31:0]} {tb_single_cycle_mips.UUT.R1.reg11[31:0]} {tb_single_cycle_mips.UUT.R1.reg12[31:0]} {tb_single_cycle_mips.UUT.R1.reg13[31:0]} {tb_single_cycle_mips.UUT.R1.reg14[31:0]} {tb_single_cycle_mips.UUT.R1.reg15[31:0]} {tb_single_cycle_mips.UUT.R1.reg16[31:0]} {tb_single_cycle_mips.UUT.R1.reg17[31:0]} {tb_single_cycle_mips.UUT.R1.reg18[31:0]} {tb_single_cycle_mips.UUT.R1.reg19[31:0]} {tb_single_cycle_mips.UUT.R1.reg20[31:0]} {tb_single_cycle_mips.UUT.R1.reg21[31:0]} {tb_single_cycle_mips.UUT.R1.reg22[31:0]} {tb_single_cycle_mips.UUT.R1.reg23[31:0]} {tb_single_cycle_mips.UUT.R1.reg24[31:0]} {tb_single_cycle_mips.UUT.R1.reg25[31:0]} {tb_single_cycle_mips.UUT.R1.reg26[31:0]} {tb_single_cycle_mips.UUT.R1.reg27[31:0]} {tb_single_cycle_mips.UUT.R1.reg28[31:0]} {tb_single_cycle_mips.UUT.R1.reg29[31:0]} {tb_single_cycle_mips.UUT.R1.reg30[31:0]} {tb_single_cycle_mips.UUT.R1.reg31[31:0]} {tb_single_cycle_mips.UUT.R1.reg32[31:0]} {tb_single_cycle_mips.UUT.R1.regf[31:0][31:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {tb_single_cycle_mips.UUT.R1.reg2[31:0]}   }
+gui_save_session -reload -default_file

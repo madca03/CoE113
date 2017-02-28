@@ -1,0 +1,826 @@
+Command: vcs ../memory/instmem.v ../memory/datamem.v ../memory/datamem_ans.v ../mapped/single_cycle_mips_mapped.v \
+../lib/saed90nm.v tb_proc.v -debug_pp -full64 +neg_tchk -R -l vcs.log
+                         Chronologic VCS (TM)
+         Version I-2014.03_Full64 -- Tue Feb 21 15:04:00 2017
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../memory/instmem.v'
+Parsing design file '../memory/datamem.v'
+Parsing design file '../memory/datamem_ans.v'
+Parsing design file '../mapped/single_cycle_mips_mapped.v'
+Parsing design file '../lib/saed90nm.v'
+Parsing design file 'tb_proc.v'
+Top Level Modules:
+       AND2X2
+       AND2X4
+       AND3X2
+       AND3X4
+       AND4X1
+       AND4X2
+       AND4X4
+       ANTENNA
+       AO21X2
+       AO221X2
+       AO222X1
+       AO222X2
+       AO22X2
+       AOBUFX1
+       AOBUFX2
+       AOBUFX4
+       AODFFARX1
+       AODFFARX2
+       AODFFNARX1
+       AODFFNARX2
+       AOI21X1
+       AOI21X2
+       AOI221X1
+       AOI221X2
+       AOI222X1
+       AOI222X2
+       AOI22X1
+       AOI22X2
+       AOINVX1
+       AOINVX2
+       AOINVX4
+       BSLEX1
+       BSLEX2
+       BSLEX4
+       BUSKP
+       CGLNPRX2
+       CGLNPRX8
+       CGLNPSX16
+       CGLNPSX2
+       CGLNPSX4
+       CGLNPSX8
+       CGLPPRX2
+       CGLPPRX8
+       CGLPPSX16
+       CGLPPSX2
+       CGLPPSX4
+       CGLPPSX8
+       CLOAD1
+       DCAP
+       DEC24X1
+       DEC24X2
+       DELLN1X2
+       DELLN2X2
+       DELLN3X2
+       DFFARX2
+       DFFASRX1
+       DFFASRX2
+       DFFASX1
+       DFFASX2
+       DFFNARX1
+       DFFNARX2
+       DFFNASRNX1
+       DFFNASRNX2
+       DFFNASRQX1
+       DFFNASRQX2
+       DFFNASRX1
+       DFFNASRX2
+       DFFNASX1
+       DFFNASX2
+       DFFNX1
+       DFFNX2
+       DFFSSRX1
+       DFFSSRX2
+       DFFX1
+       DFFX2
+       DHFILLHLH2
+       DHFILLHLHLS11
+       DHFILLLHL2
+       FADDX2
+       HADDX1
+       HADDX2
+       HEAD2X16
+       HEAD2X2
+       HEAD2X32
+       HEAD2X4
+       HEAD2X8
+       HEADX16
+       HEADX2
+       HEADX32
+       HEADX4
+       HEADX8
+       IBUFFX16
+       IBUFFX2
+       IBUFFX32
+       IBUFFX4
+       IBUFFX8
+       INVX16
+       INVX2
+       INVX32
+       INVX4
+       INVX8
+       ISOLANDX1
+       ISOLANDX2
+       ISOLANDX4
+       ISOLANDX8
+       ISOLORX1
+       ISOLORX2
+       ISOLORX4
+       ISOLORX8
+       ISOLANDAOX1
+       ISOLANDAOX2
+       ISOLANDAOX4
+       ISOLANDAOX8
+       ISOLORAOX1
+       ISOLORAOX2
+       ISOLORAOX4
+       ISOLORAOX8
+       LARX1
+       LARX2
+       LASRNX1
+       LASRNX2
+       LASRQX1
+       LASRQX2
+       LASRX1
+       LASRX2
+       LASX1
+       LASX2
+       LATCHX1
+       LATCHX2
+       LNANDX1
+       LNANDX2
+       LSDNENX1
+       LSDNENX2
+       LSDNENX4
+       LSDNENX8
+       LSDNENCLX1
+       LSDNENCLX2
+       LSDNENCLX4
+       LSDNENCLX8
+       LSDNENCLSSX1
+       LSDNENCLSSX2
+       LSDNENCLSSX4
+       LSDNENCLSSX8
+       LSDNENSSX1
+       LSDNENSSX2
+       LSDNENSSX4
+       LSDNENSSX8
+       LSDNSSX1
+       LSDNSSX2
+       LSDNSSX4
+       LSDNSSX8
+       LSDNX1
+       LSDNX2
+       LSDNX4
+       LSDNX8
+       LSUPENX1
+       LSUPENX2
+       LSUPENX4
+       LSUPENX8
+       LSUPENCLX1
+       LSUPENCLX2
+       LSUPENCLX4
+       LSUPENCLX8
+       LSUPX1
+       LSUPX2
+       LSUPX4
+       LSUPX8
+       MUX21X1
+       MUX21X2
+       MUX41X1
+       MUX41X2
+       NAND2X2
+       NAND2X4
+       NAND3X1
+       NAND3X2
+       NAND3X4
+       NAND4X1
+       NBUFFX16
+       NBUFFX32
+       NBUFFX8
+       NMT1
+       NMT2
+       NMT3
+       NOR2X1
+       NOR2X2
+       NOR2X4
+       NOR3X1
+       NOR3X2
+       NOR3X4
+       NOR4X1
+       OA21X1
+       OA21X2
+       OA221X2
+       OA222X2
+       OA22X2
+       OAI21X1
+       OAI21X2
+       OAI221X1
+       OAI221X2
+       OAI222X1
+       OAI222X2
+       OAI22X1
+       OAI22X2
+       OR2X2
+       OR2X4
+       OR3X2
+       OR3X4
+       OR4X2
+       OR4X4
+       PGX1
+       PGX2
+       PGX4
+       PMT1
+       PMT2
+       PMT3
+       RDFFARX1
+       RDFFARX2
+       RDFFNARX1
+       RDFFNARX2
+       RSDFFARX1
+       RSDFFARX2
+       RSDFFNARX1
+       RSDFFNARX2
+       RDFFNX1
+       RDFFNX2
+       RDFFX1
+       RDFFX2
+       RSDFFNX1
+       RSDFFNX2
+       RSDFFX1
+       RSDFFX2
+       SDFFARX1
+       SDFFARX2
+       SDFFASRSX1
+       SDFFASRSX2
+       SDFFASRX1
+       SDFFASRX2
+       SDFFASX1
+       SDFFASX2
+       SDFFNARX1
+       SDFFNARX2
+       SDFFNASRX1
+       SDFFNASRX2
+       SDFFNASX1
+       SDFFNASX2
+       SDFFNX1
+       SDFFNX2
+       SDFFSSRX1
+       SDFFSSRX2
+       SDFFX1
+       SDFFX2
+       SHFILL2
+       SHFILL3
+       SHFILL1
+       SHFILL64
+       SHFILL128
+       TIEH
+       TIEL
+       TNBUFFX16
+       TNBUFFX1
+       TNBUFFX2
+       TNBUFFX32
+       TNBUFFX4
+       TNBUFFX8
+       XNOR2X2
+       XNOR3X1
+       XNOR3X2
+       XOR2X2
+       XOR3X2
+       RDFFNSRASX1
+       RDFFNSRASX2
+       RDFFSRARX1
+       RDFFSRARX2
+       RDFFSRASRX1
+       RDFFSRASRX2
+       RDFFSRASX1
+       RDFFSRASX2
+       RSDFFNSRARX1
+       RSDFFNSRARX2
+       RSDFFNSRASRX1
+       RSDFFNSRASRX2
+       RSDFFNSRASRNX1
+       RSDFFNSRASRNX2
+       RSDFFNSRASRQX1
+       RSDFFNSRASRQX2
+       RSDFFSRARX1
+       RSDFFSRARX2
+       RSDFFSRASRX1
+       RSDFFSRASRX2
+       RDFFNSRARX1
+       RDFFNSRARX2
+       RDFFNSRASRQX1
+       RDFFNSRASRQX2
+       RDFFNSRASRNX1
+       RDFFNSRASRNX2
+       RDFFNSRASRX1
+       RDFFNSRASRX2
+       RDFFNSRX1
+       RDFFNSRX2
+       RDFFSRSSRX1
+       RDFFSRSSRX2
+       RDFFSRX1
+       RDFFSRX2
+       RSDFFNSRASX1
+       RSDFFNSRASX2
+       RSDFFNSRX1
+       RSDFFNSRX2
+       RSDFFSRASX1
+       RSDFFSRASX2
+       RSDFFSRSSRX1
+       RSDFFSRSSRX2
+       RSDFFSRX1
+       RSDFFSRX2
+       tb_proc
+TimeScale is 1 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6642
+"DFFARX1 \pc_reg[0] ( .D (N119),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[0]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6643
+"DFFARX1 \pc_reg[1] ( .D (N120),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[1]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6644
+"DFFARX1 \pc_reg[2] ( .D (N121),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[2]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6645
+"DFFARX1 \pc_reg[3] ( .D (N122),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[3]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6646
+"DFFARX1 \pc_reg[4] ( .D (N123),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[4]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6647
+"DFFARX1 \pc_reg[5] ( .D (N124),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[5]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6648
+"DFFARX1 \pc_reg[6] ( .D (N125),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[6]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6649
+"DFFARX1 \pc_reg[7] ( .D (N126),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[7]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6650
+"DFFARX1 \pc_reg[8] ( .D (N127),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[8]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6651
+"DFFARX1 \pc_reg[9] ( .D (N128),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[9]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6652
+"DFFARX1 \pc_reg[10] ( .D (N129),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[10]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6654
+"DFFARX1 \pc_reg[11] ( .D (N130),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[11]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6656
+"DFFARX1 \pc_reg[12] ( .D (N131),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[12]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6658
+"DFFARX1 \pc_reg[13] ( .D (N132),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[13]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6660
+"DFFARX1 \pc_reg[14] ( .D (N133),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[14]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6662
+"DFFARX1 \pc_reg[15] ( .D (N134),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[15]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6664
+"DFFARX1 \pc_reg[16] ( .D (N135),  .CLK (clk),  .RSTB (n144),  .Q (inst_addr[16]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6666
+"DFFARX1 \pc_reg[17] ( .D (N136),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[17]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6668
+"DFFARX1 \pc_reg[18] ( .D (N137),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[18]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6670
+"DFFARX1 \pc_reg[19] ( .D (N138),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[19]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6672
+"DFFARX1 \pc_reg[20] ( .D (N139),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[20]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6674
+"DFFARX1 \pc_reg[21] ( .D (N140),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[21]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6676
+"DFFARX1 \pc_reg[22] ( .D (N141),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[22]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6678
+"DFFARX1 \pc_reg[23] ( .D (N142),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[23]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6680
+"DFFARX1 \pc_reg[24] ( .D (N143),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[24]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6682
+"DFFARX1 \pc_reg[25] ( .D (N144),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[25]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6684
+"DFFARX1 \pc_reg[26] ( .D (N145),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[26]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6686
+"DFFARX1 \pc_reg[27] ( .D (N146),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[27]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6688
+"DFFARX1 \pc_reg[28] ( .D (N147),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[28]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6690
+"DFFARX1 \pc_reg[29] ( .D (N148),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[29]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6692
+"DFFARX1 \pc_reg[30] ( .D (N149),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[30]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6694
+"DFFARX1 \pc_reg[31] ( .D (N150),  .CLK (clk),  .RSTB (n122),  .Q (inst_addr[31]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6892
+"single_cycle_mips_DW01_add_0 add_123( .A (rd_dataA),  .B ({n139, n139, n138, n139, n139, n139, n139, n138, n138, n138, n138, n138, n137, n137, n137, n137, n137, inst[14:0]}),  .CI (1'b0),  .SUM (data_addr));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6895
+"single_cycle_mips_DW01_add_1 add_91( .A (rd_dataA),  .B ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, n137, inst[14:0]}),  .CI (1'b0),  .SUM ({N254, N253, N252, N251, N250, N249, N248, N247, N246, N245, N244, N243, N242, N241, N240, N239, N238, N237, N236, N235, N234, N233, N232, N231, N230, N229, N228, N227, N226, N225, N224, N223}));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6901
+"single_cycle_mips_DW01_add_2 add_70( .A (rd_dataA),  .B (data_out),  .CI (1'b0),  .SUM ({N222, N221, N220, N219, N218, N217, N216, N215, N214, N213, N212, N211, N210, N209, N208, N207, N206, N205, N204, N203, N202, N201, N200, N199, N198, N197, N196, N195, N194, N193, N192, N191}));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6905
+"single_cycle_mips_DW01_sub_0 sub_63( .A (rd_dataA),  .B ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, n138, inst[14:0]}),  .CI (1'b0),  .DIFF ({\diff_immed[31] , SYNOPSYS_UNCONNECTED__0, SYNOPSYS_UNCONNECTED__1, SYNOPSYS_UNCONNECTED__2, SYNOPSYS_UNCONNECTED__3, SYNOPSYS_UNCONNECTED__4, SYNOPSYS_UNCONNECTED__5, SYNOPSYS_UNCONNECTED__6, SYNOPSYS_UNCONNECTED__7, SYNOPSYS_UNCONNECTED__8, SYNOPSYS_UNCONNECTED__9, SYNOPSYS_UNCONNECTED__10, SYNOPSYS_UNCONNECTED__11, SYNOPSYS_UNCONNECTED__12, SYNOPSYS_UNCONNECTED__13, SYNOPSYS_UNCONNECTED__14, SYNOPSYS_UNCONNECTED__15, SYNOPSYS_UNCONNECTED__16, SYNOPSYS_UNCONNECTED__17, SYNOPSYS_UNCONNECTED__18, SYNOPSYS_UNCONNECTED__19, SYNOPSYS_UNCONNECTED__20, SYNOPSYS_UNCO ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6924
+"single_cycle_mips_DW01_add_3 add_0_root_add_25_2( .A ({n140, n140, n140, n140, n140, n140, n141, n141, n141, n141, n141, n141, n141, n142, n142, n142, n140, inst[14:0]}),  .B ({N54, N53, N52, N51, N50, N49, N48, N47, N46, N45, N44, N43, N42, N41, N40, N39, N38, N37, N36, N35, N34, N33, N32, N31, N30, N29, N28, N27, N26, N25, N24, N23}),  .CI (1'b0),  .SUM ({N86, N85, N84, N83, N82, N81, N80, N79, N78, N77, N76, N75, N74, N73, N72, N71, N70, N69, N68, N67, N66, N65, N64, N63, N62, N61, N60, N59, N58, N57, N56, N55}));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6932
+"single_cycle_mips_DW01_add_4 r102( .A (inst_addr),  .B ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b1, 1'b0, 1'b0}),  .CI (1'b0),  .SUM ({N54, N53, N52, N51, N50, N49, N48, N47, N46, N45, N44, N43, N42, N41, N40, N39, N38, N37, N36, N35, N34, N33, N32, N31, N30, N29, N28, N27, N26, N25, N24, N23}));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../mapped/single_cycle_mips_mapped.v, 6939
+"single_cycle_mips_DW01_sub_1 sub_62( .A (rd_dataA),  .B ({data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15], data_out[15:0]}),  .CI (1'b0),  .DIFF (diff));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "../mapped/single_cycle_mips_mapped.sdf"
+   ***    Annotation scope: tb_proc.UUT
+   ***    No MTM selection argument specified
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    MTM selection defaulted to "TOOL_CONTROL":
+               (+typdelays compiled, TYPICAL delays selected)
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Tue Feb 21 15:04:04 2017
+
+
+SDF Info: +pulse_r/100, +pulse_e/100 in effect
+
+Warning-[SDFCOM_IWSBA] INTERCONNECT will still be annotated
+../mapped/single_cycle_mips_mapped.sdf, 328
+module: DFFARX1, "instance: tb_proc.UUT.\pc_reg[0] "
+  SDF Warning: INTERCONNECT from \pc_reg[0] .Q to add_0_root_add_25_2.U2.IN2 
+  has Instance at ../mapped/single_cycle_mips_mapped.v:6932, delay will still 
+  be annotated.
+
+
+Warning-[SDFCOM_IWSBA] INTERCONNECT will still be annotated
+../mapped/single_cycle_mips_mapped.sdf, 330
+module: DFFARX1, "instance: tb_proc.UUT.\pc_reg[0] "
+  SDF Warning: INTERCONNECT from \pc_reg[0] .Q to add_0_root_add_25_2.U1.IN2 
+  has Instance at ../mapped/single_cycle_mips_mapped.v:6932, delay will still 
+  be annotated.
+
+
+Warning-[SDFCOM_IWSBA] INTERCONNECT will still be annotated
+../mapped/single_cycle_mips_mapped.sdf, 335
+module: DFFARX1, "instance: tb_proc.UUT.\pc_reg[1] "
+  SDF Warning: INTERCONNECT from \pc_reg[1] .Q to add_0_root_add_25_2.U1_1.B 
+  has Instance at ../mapped/single_cycle_mips_mapped.v:6932, delay will still 
+  be annotated.
+
+
+Warning-[SDFCOM_IWSBA] INTERCONNECT will still be annotated
+../mapped/single_cycle_mips_mapped.sdf, 13694
+module: DFFARX1, "instance: tb_proc.UUT.\pc_reg[0] "
+  SDF Warning: INTERCONNECT from \pc_reg[0] .Q to U140.IN3 has Instance at 
+  ../mapped/single_cycle_mips_mapped.v:6932, delay will still be annotated.
+
+
+Warning-[SDFCOM_IWSBA] INTERCONNECT will still be annotated
+../mapped/single_cycle_mips_mapped.sdf, 13698
+module: DFFARX1, "instance: tb_proc.UUT.\pc_reg[1] "
+  SDF Warning: INTERCONNECT from \pc_reg[1] .Q to U139.IN3 has Instance at 
+  ../mapped/single_cycle_mips_mapped.v:6932, delay will still be annotated.
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+../mapped/single_cycle_mips_mapped.sdf, 50810
+module: DFFARX1, "instance: tb_proc.UUT.RF.\elem26_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+../mapped/single_cycle_mips_mapped.sdf, 50810
+module: DFFARX1, "instance: tb_proc.UUT.RF.\elem26_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+../mapped/single_cycle_mips_mapped.sdf, 50810
+module: DFFARX1, "instance: tb_proc.UUT.RF.\elem26_reg[0] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+../mapped/single_cycle_mips_mapped.sdf, 50831
+module: DFFARX1, "instance: tb_proc.UUT.RF.\elem26_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+All future warnings not reported; use +sdfverbose to report them.
+
+Warning-[SDFCOM_NL] Negative Limit Not Allowed
+../mapped/single_cycle_mips_mapped.sdf, 50831
+module: DFFARX1, "instance: tb_proc.UUT.RF.\elem26_reg[1] "
+  SDF Warning: $recovery/$removal timing checks does not support negative 
+  values.
+  Please use $recrem timing check instead.
+
+
+          Total errors: 0
+          Total warnings: 3077
+   ***    SDF annotation completed: Tue Feb 21 15:04:04 2017
+
+
+Starting vcs inline pass...
+353 modules and 26 UDPs read.
+	However, due to incremental compilation, no re-compilation is necessary.
+rm -f _csrc*.so amd64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared -o .//../simv.daidir//_csrc0.so SIM_l.o 5NrI_d.o 5NrIB_d.o  
+ld -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a \
+--no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir \
+_csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /usr/synopsys/vcs/I-2014.03/amd64/lib/libzerosoft_rt_stubs.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so    /usr/synopsys/vcs/I-2014.03/amd64/lib/libvcsnew.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libuclinative.so   -Wl,-whole-archive /usr/synopsys/vcs/I-2014.03/amd64/lib/libvcsucli.so \
+-Wl,-no-whole-archive          /usr/synopsys/vcs/I-2014.03/amd64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Command: ./simv +neg_tchk -a vcs.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03_Full64; Runtime version I-2014.03_Full64;  Feb 21 15:04 2017
+Doing SDF annotation ...... Done
+VCD+ Writer I-2014.03_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+
+Printing the final contents of the data memory...
+data # 		address 	data		correct data
+-------- 	-------- 	-------- 	--------
+       0 	00000000 	00c0e113 	00000000
+       1 	00000004 	00c0e113 	00000000
+       2 	00000008 	00c0e113 	00000000
+       3 	0000000c 	00c0e113 	00000000
+       4 	00000010 	00c0e113 	00000000
+       5 	00000014 	00c0e113 	00000000
+       6 	00000018 	00000000 	00000000
+       7 	0000001c 	0000000c 	0000000c
+       8 	00000020 	12345678 	12345678
+       9 	00000024 	12345678 	12345678
+      10 	00000028 	abcdef12 	abcdef12
+      11 	0000002c 	00001000 	00001000
+      12 	00000030 	00000200 	00000200
+      13 	00000034 	00c0e113 	00c0e113
+      14 	00000038 	00000002 	00000002
+      15 	0000003c 	00000003 	00000003
+      16 	00000040 	2244668a 	2244668a
+      17 	00000044 	11220000 	00000000
+      18 	00000048 	00000001 	00000001
+      19 	0000004c 	00000000 	00000001
+      20 	00000050 	00000000 	1122372d
+      21 	00000054 	11223345 	11223345
+      22 	00000058 	11223345 	11223345
+      23 	0000005c 	00000000 	00000000
+      24 	00000060 	00000000 	00000000
+      25 	00000064 	00000000 	00000000
+      26 	00000068 	00000000 	00000000
+      27 	0000006c 	00000000 	00000000
+      28 	00000070 	00000000 	00000000
+      29 	00000074 	00000000 	00000000
+      30 	00000078 	00000000 	00000000
+      31 	0000007c 	00000000 	00000000
+      32 	00000080 	00000000 	00000000
+
+
+
+lw: correct
+sw: correct
+add: correct
+sub: wrong
+slt: correct
+addi: wrong
+slti: wrong
+beq: wrong
+bne: wrong
+$finish called from file "tb_proc.v", line 207.
+$finish at simulation time              4253000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4253000 ps
+CPU Time:      0.330 seconds;       Data structure size:   3.0Mb
+Tue Feb 21 15:04:32 2017
+CPU time: 1.180 seconds to compile + .014 seconds to elab + .222 seconds to link + .393 seconds in simulation
