@@ -1,3 +1,4 @@
+`define WORD_WIDTH 32
 module single_cycle_mips ( clk, rst_n, inst_addr, inst, data_addr, data_in,
         data_out, data_wr );
   output [31:0] inst_addr;

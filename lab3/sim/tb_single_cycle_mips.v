@@ -50,11 +50,11 @@ module tb_single_cycle_mips();
 	integer bne_w = 0;
 
 	initial begin
-		$dumpfile("tb_proc.vcd");
+		$dumpfile("tb_single_cycle_mips.vcd");
 		$dumpvars;
-		// $vcdplusfile("tb_proc.vpd");
-		// $vcdpluson;
-		// $sdf_annotate("single_cycle_mips_mapped.sdf", UUT);
+		//$vcdplusfile("tb_single_cycle_mips.vpd");
+		//$vcdpluson;
+		//$sdf_annotate("single_cycle_mips_mapped.sdf", UUT);
 
 		clk = 0;
 		rst_n = 0;

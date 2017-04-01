@@ -1,0 +1,13 @@
+Command: vcs ../rtl/instmem.v ../rtl/datamem.v ../rtl/datamem_ans.v ../rtl/single_cycle_mips.v \
+../rtl/rf.v ../rtl/alu.v tb_single_cycle_mips.v -debug_pp -full64 +neg_tchk -R -l \
+vcs.log
+                         Chronologic VCS (TM)
+         Version I-2014.03_Full64 -- Tue Mar  7 14:28:18 2017
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+CPU time: .028 seconds to compile

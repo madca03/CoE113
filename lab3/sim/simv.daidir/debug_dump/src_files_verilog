@@ -1,0 +1,6 @@
+/home/mark.allen.agaton/CoE113/lab3/lib/saed90nm.v
+/home/mark.allen.agaton/CoE113/lab3/mapped/single_cycle_mips_mapped.v
+/home/mark.allen.agaton/CoE113/lab3/rtl/datamem.v
+/home/mark.allen.agaton/CoE113/lab3/rtl/datamem_ans.v
+/home/mark.allen.agaton/CoE113/lab3/rtl/instmem.v
+/home/mark.allen.agaton/CoE113/lab3/sim/tb_single_cycle_mips.v

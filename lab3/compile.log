@@ -1,0 +1,361 @@
+read_verilog rf.v 
+Loading db file '/home/mark.allen.agaton/CoE113/lab3/lib/saed90nm_typ.db'
+Loading db file '/usr/synopsys/syn/I-2013.12/libraries/syn/gtech.db'
+Loading db file '/usr/synopsys/syn/I-2013.12/libraries/syn/standard.sldb'
+  Loading link library 'saed90nm_typ'
+  Loading link library 'gtech'
+Loading verilog file '/home/mark.allen.agaton/CoE113/lab3/rtl/rf.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/mark.allen.agaton/CoE113/lab3/rtl/rf.v
+
+Statistics for case statements in always block at line 87 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/rf.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           124            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine rf line 87 in file
+                '/home/mark.allen.agaton/CoE113/lab3/rtl/rf.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+===========================================================
+| block name/line  | Inputs | Outputs | # sel inputs | MB |
+===========================================================
+|      rf/129      |   32   |   32    |      5       | N  |
+|      rf/130      |   32   |   32    |      5       | N  |
+===========================================================
+Presto compilation completed successfully.
+Current design is now '/home/mark.allen.agaton/CoE113/lab3/rtl/rf.db:rf'
+Loaded 1 design.
+Current design is 'rf'.
+rf
+read_verilog alu.v 
+Loading verilog file '/home/mark.allen.agaton/CoE113/lab3/rtl/alu.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/mark.allen.agaton/CoE113/lab3/rtl/alu.v
+Warning:  /home/mark.allen.agaton/CoE113/lab3/rtl/alu.v:17: Net cout or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Statistics for case statements in always block at line 20 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/alu.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            21            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine alu line 20 in file
+                '/home/mark.allen.agaton/CoE113/lab3/rtl/alu.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|       res_reg       | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/home/mark.allen.agaton/CoE113/lab3/rtl/alu.db:alu'
+Loaded 1 design.
+Current design is 'alu'.
+alu
+read_verilog single_cycle_mips.v
+Loading verilog file '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v
+
+Statistics for case statements in always block at line 77 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            81            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 97 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            98            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 111 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           112            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 123 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           124            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 140 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           141            |     no/auto      |
+|           143            |     no/auto      |
+===============================================
+
+Statistics for case statements in always block at line 163 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           164            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 172 in file
+        '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           173            |     no/auto      |
+|           175            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine single_cycle_mips line 77 in file
+                '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    inst_addr_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine single_cycle_mips line 140 in file
+                '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|     aluSel_reg      | Latch |   2   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+        in routine single_cycle_mips line 172 in file
+                '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|     wr_data_reg     | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Current design is now '/home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.db:single_cycle_mips'
+Loaded 1 design.
+Current design is 'single_cycle_mips'.
+single_cycle_mips
+current_design single_cycle_mips
+Current design is 'single_cycle_mips'.
+{single_cycle_mips}
+link
+
+  Linking design 'single_cycle_mips'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (3 designs)               /home/mark.allen.agaton/CoE113/lab3/rtl/single_cycle_mips.db, etc
+  saed90nm_typ (library)      /home/mark.allen.agaton/CoE113/lab3/lib/saed90nm_typ.db
+
+1
+check_design > check_design.log
+source timing.con
+1
+compile
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | I-2013.12-DWBB_201312.0 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 7 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'alu'
+Warning: Unable to determine wired-logic type for multiple-driver net 'cout'. (TRANS-5)
+Information: Assuming multiple-driver net 'cout' is a wired-AND. (TRANS-6)
+  Processing 'rf'
+Information: The register 'regf_reg[0][31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][0]' is a constant and will be removed. (OPT-1206)
+  Processing 'single_cycle_mips'
+Information: The register 'aluSel_reg[1]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'single_cycle_mips_DW01_add_0'
+  Processing 'single_cycle_mips_DW01_add_1'
+  Processing 'alu_DW01_add_0'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW01_add_1'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: The register 'inst_addr_reg[0]' is a constant and will be removed. (OPT-1206)
+Information: The register 'inst_addr_reg[1]' is a constant and will be removed. (OPT-1206)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06   82452.3      0.75      21.7       0.0                          
+    0:00:06   82452.3      0.75      21.7       0.0                          
+    0:00:06   82452.3      0.75      21.7       0.0                          
+    0:00:06   82452.3      0.75      21.7       0.0                          
+    0:00:06   82452.3      0.75      21.7       0.0                          
+    0:00:06   78257.8      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:06   78246.4      0.00       0.0       0.0                          
+    0:00:07   78246.4      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   78246.4      0.00       0.0       0.0                          
+    0:00:07   78246.4      0.00       0.0       0.0                          
+    0:00:07   78096.6      0.00       0.0       0.0                          
+    0:00:08   78039.4      0.00       0.0       0.0                          
+    0:00:08   77883.7      0.00       0.0       0.0                          
+    0:00:08   77861.7      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+    0:00:08   77850.5      0.00       0.0       0.0                          
+Loading db file '/home/mark.allen.agaton/CoE113/lab3/lib/saed90nm_typ.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'single_cycle_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk': 1022 load(s), 1 driver(s)
+1
+report_constraint -all_violators > constraint_report.log
+report_area > area_report.log
+report_timing > timing_report.log
+write_sdf -version 1.0 mapped/single_cycle_mips_mapped.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/mark.allen.agaton/CoE113/lab3/mapped/single_cycle_mips_mapped.sdf'. (WT-3)
+1
+write -f verilog -hier -out mapped/single_cycle_mips_mapped.v
+Writing verilog file '/home/mark.allen.agaton/CoE113/lab3/mapped/single_cycle_mips_mapped.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 4 nets to module single_cycle_mips using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+quit
+
+Thank you...
+

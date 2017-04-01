@@ -1,0 +1,25 @@
+ 
+****************************************
+check_design summary:
+Version:     I-2013.12
+Date:        Tue Mar  7 13:15:35 2017
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               5
+    Cells do not drive (LINT-1)                                     5
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          1
+    Net type is unknown (LINT-38)                                   1
+--------------------------------------------------------------------------------
+
+Warning: In design 'single_cycle_mips', cell 'C844' does not drive any nets. (LINT-1)
+Warning: In design 'single_cycle_mips', cell 'C845' does not drive any nets. (LINT-1)
+Warning: In design 'single_cycle_mips', cell 'C850' does not drive any nets. (LINT-1)
+Warning: In design 'single_cycle_mips', cell 'C851' does not drive any nets. (LINT-1)
+Warning: In design 'single_cycle_mips', cell 'C852' does not drive any nets. (LINT-1)
+Warning: In design 'single_cycle_mips', net 'aluNeg' driven by pin 'A1/neg' has no loads. (LINT-2)
+Warning: In design 'single_cycle_mips', net 'A1/cout' has multiple drivers (unknown wired-logic type). (LINT-38)
+1

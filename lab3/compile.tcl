@@ -1,6 +1,6 @@
+read_verilog rf.v 
+read_verilog alu.v 
 read_verilog single_cycle_mips.v
-read_verilog alu.v
-read_verilog rf.v
 current_design single_cycle_mips
 link
 check_design > check_design.log

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : single_cycle_mips
+Version: I-2013.12
+Date   : Tue Mar  7 13:15:45 2017
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/mark.allen.agaton/CoE113/lab3/lib/saed90nm_typ.db)
+
+Number of ports:                          163
+Number of nets:                           459
+Number of cells:                          232
+Number of combinational cells:            165
+Number of sequential cells:                63
+Number of macros/black boxes:               0
+Number of buf/inv:                         31
+Number of references:                      26
+
+Combinational area:              36755.251463
+Buf/Inv area:                     3095.654472
+Noncombinational area:           34403.328568
+Macro/Black Box area:                0.000000
+Net Interconnect area:            6691.965096
+
+Total cell area:                 71158.580030
+Total area:                      77850.545126
+1

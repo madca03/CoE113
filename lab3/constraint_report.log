@@ -1,0 +1,14 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'single_cycle_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : single_cycle_mips
+Version: I-2013.12
+Date   : Tue Mar  7 13:15:45 2017
+****************************************
+
+This design has no violated constraints.
+
+1

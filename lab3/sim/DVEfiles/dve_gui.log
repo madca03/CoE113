@@ -1,18 +1,1 @@
-The file '/home/mark.allen.agaton/CoE113/lab3/sim/tb_proc.vpd' was opened successfully.
-Error: [EK-CMD-009]
-value 'No message selected.' for option '-msgid' not of type 'integer'.
-Error: [EK-CMD-009]
-value 'No message selected.' for option '-msgid' not of type 'integer'.
-Error: [EK-CMD-009]
-value 'No message selected.' for option '-msgid' not of type 'integer'.
-Error: [EK-CMD-009]
-value 'No message selected.' for option '-msgid' not of type 'integer'.
-Error: [EK-CMD-009]
-value 'No message selected.' for option '-msgid' not of type 'integer'.
-Error: [EK-CMD-009]
-value 'No message selected.' for option '-msgid' not of type 'integer'.
-The file '/home/mark.allen.agaton/CoE113/lab3/sim/tb_proc.vpd' was opened successfully.
-Warning: [DVDP402] 
-None of the children of the object 'tb_single_cycle_mips.UUT.R1.regf[31:0][31:0]' were dumped.
-The file '/home/mark.allen.agaton/CoE113/lab3/sim/tb_proc.vpd' was opened successfully.
-The file '/home/mark.allen.agaton/CoE113/lab3/sim/tb_proc.vpd' was opened successfully.
+The file '/home/mark.allen.agaton/CoE113/lab3/sim/tb_single_cycle_mips.vpd' was opened successfully.
