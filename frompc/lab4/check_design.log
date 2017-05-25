@@ -1,0 +1,56 @@
+ 
+****************************************
+check_design summary:
+Version:     I-2013.12
+Date:        Tue Apr 18 10:34:21 2017
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     32
+    Shorted outputs (LINT-31)                                      32
+
+Cells                                                               7
+    Cells do not drive (LINT-1)                                     7
+--------------------------------------------------------------------------------
+
+Warning: In design 'pipelined_mips', cell 'C2298' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', cell 'C2299' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', cell 'C2314' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', cell 'C2315' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', cell 'C2320' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', cell 'C2321' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', cell 'C2322' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', output port 'inst_addr[31]' is connected directly to output port 'pc_IF[31]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[30]' is connected directly to output port 'pc_IF[30]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[29]' is connected directly to output port 'pc_IF[29]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[28]' is connected directly to output port 'pc_IF[28]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[27]' is connected directly to output port 'pc_IF[27]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[26]' is connected directly to output port 'pc_IF[26]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[25]' is connected directly to output port 'pc_IF[25]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[24]' is connected directly to output port 'pc_IF[24]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[23]' is connected directly to output port 'pc_IF[23]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[22]' is connected directly to output port 'pc_IF[22]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[21]' is connected directly to output port 'pc_IF[21]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[20]' is connected directly to output port 'pc_IF[20]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[19]' is connected directly to output port 'pc_IF[19]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[18]' is connected directly to output port 'pc_IF[18]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[17]' is connected directly to output port 'pc_IF[17]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[16]' is connected directly to output port 'pc_IF[16]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[15]' is connected directly to output port 'pc_IF[15]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[14]' is connected directly to output port 'pc_IF[14]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[13]' is connected directly to output port 'pc_IF[13]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[12]' is connected directly to output port 'pc_IF[12]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[11]' is connected directly to output port 'pc_IF[11]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[10]' is connected directly to output port 'pc_IF[10]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[9]' is connected directly to output port 'pc_IF[9]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[8]' is connected directly to output port 'pc_IF[8]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[7]' is connected directly to output port 'pc_IF[7]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[6]' is connected directly to output port 'pc_IF[6]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[5]' is connected directly to output port 'pc_IF[5]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[4]' is connected directly to output port 'pc_IF[4]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[3]' is connected directly to output port 'pc_IF[3]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[2]' is connected directly to output port 'pc_IF[2]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[1]' is connected directly to output port 'pc_IF[1]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[0]' is connected directly to output port 'pc_IF[0]'. (LINT-31)
+1

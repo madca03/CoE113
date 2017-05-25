@@ -1,0 +1,192 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/mark.allen.agaton/CoE113/lab4/sim/pipelined_mips.vpd -design V1} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab3/sim/tb_single_cycle_mips.vpd -design V1} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab3/sim/tb_proc.vpd -design V1} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab2/sim/tb_proc.vpd -design V1} {gui_open_db -file /home/mark.allen.agaton/CoE113/lab1/sim/tb_rf_rtl.vpd -design V2}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1359
+gui_set_state_value -category Layout -key child_console_size_y -value 163
+gui_set_state_value -category Layout -key child_data_size_x -value 201
+gui_set_state_value -category Layout -key child_data_size_y -value 396
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 169
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 278
+gui_set_state_value -category Layout -key child_hier_size_y -value 396
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 883
+gui_set_state_value -category Layout -key child_source_size_y -value 391
+gui_set_state_value -category Layout -key child_wave_colname -value 195
+gui_set_state_value -category Layout -key child_wave_colvalue -value 195
+gui_set_state_value -category Layout -key child_wave_left -value 394
+gui_set_state_value -category Layout -key child_wave_right -value 960
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 39
+gui_set_state_value -category Layout -key main_size_x -value 1359
+gui_set_state_value -category Layout -key main_size_y -value 705
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1364
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 554
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 59
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 68
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1418
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 734
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/mark.allen.agaton/CoE113/lab4_2/lab4/sim/pipelined_mips.vpd -design V1
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}  tb_pipelined_mips.data_wr   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}  tb_pipelined_mips.data_wr  {tb_pipelined_mips.pc_IF[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}  tb_pipelined_mips.data_wr  {tb_pipelined_mips.pc_IF[31:0]}  {tb_pipelined_mips.pc_ID[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}  tb_pipelined_mips.data_wr  {tb_pipelined_mips.pc_IF[31:0]}  {tb_pipelined_mips.pc_ID[31:0]}  {tb_pipelined_mips.pc_EXE[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}  tb_pipelined_mips.data_wr  {tb_pipelined_mips.pc_IF[31:0]}  {tb_pipelined_mips.pc_ID[31:0]}  {tb_pipelined_mips.pc_EXE[31:0]}  {tb_pipelined_mips.pc_MEM[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}  {tb_pipelined_mips.data_addr[31:0]}  {tb_pipelined_mips.data_in[31:0]}  {tb_pipelined_mips.data_out[31:0]}  tb_pipelined_mips.data_wr  {tb_pipelined_mips.pc_IF[31:0]}  {tb_pipelined_mips.pc_ID[31:0]}  {tb_pipelined_mips.pc_EXE[31:0]}  {tb_pipelined_mips.pc_MEM[31:0]}  {tb_pipelined_mips.pc_WB[31:0]}   }
+gui_list_select -id Data.1 { tb_pipelined_mips.clk   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { tb_pipelined_mips.clk {tb_pipelined_mips.inst_addr[31:0]} {tb_pipelined_mips.data_addr[31:0]} {tb_pipelined_mips.data_in[31:0]} {tb_pipelined_mips.data_out[31:0]} tb_pipelined_mips.data_wr {tb_pipelined_mips.pc_IF[31:0]} {tb_pipelined_mips.pc_ID[31:0]} {tb_pipelined_mips.pc_EXE[31:0]} {tb_pipelined_mips.pc_MEM[31:0]} {tb_pipelined_mips.pc_WB[31:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_list_expand -id  Hier.1   tb_pipelined_mips
+gui_list_expand -id  Hier.1   tb_pipelined_mips.UUT
+gui_list_select -id Hier.1 -current_item_name tb_pipelined_mips.UUT.R1 -current_item_type Scope  -selected  { tb_pipelined_mips.UUT.R1   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}  {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}  {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}  {tb_pipelined_mips.UUT.R1.rd_dataA[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}  {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}  {tb_pipelined_mips.UUT.R1.rd_dataA[31:0]}  {tb_pipelined_mips.UUT.R1.rd_dataB[31:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}  {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}  {tb_pipelined_mips.UUT.R1.rd_dataA[31:0]}  {tb_pipelined_mips.UUT.R1.rd_dataB[31:0]}  tb_pipelined_mips.UUT.R1.wr_en   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}  {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}  {tb_pipelined_mips.UUT.R1.rd_dataA[31:0]}  {tb_pipelined_mips.UUT.R1.rd_dataB[31:0]}  tb_pipelined_mips.UUT.R1.wr_en  {tb_pipelined_mips.UUT.R1.wr_addr[4:0]}   }
+gui_list_select -id Data.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]}  {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}  {tb_pipelined_mips.UUT.R1.rd_dataA[31:0]}  {tb_pipelined_mips.UUT.R1.rd_dataB[31:0]}  tb_pipelined_mips.UUT.R1.wr_en  {tb_pipelined_mips.UUT.R1.wr_addr[4:0]}  {tb_pipelined_mips.UUT.R1.wr_data[31:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {tb_pipelined_mips.UUT.R1.rd_addrA[4:0]} {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]} {tb_pipelined_mips.UUT.R1.rd_dataA[31:0]} {tb_pipelined_mips.UUT.R1.rd_dataB[31:0]} tb_pipelined_mips.UUT.R1.wr_en {tb_pipelined_mips.UUT.R1.wr_addr[4:0]} {tb_pipelined_mips.UUT.R1.wr_data[31:0]} } -insertionbar
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 646
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 4750
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}   }
+gui_set_pref_value -category {Schematics} -key {highlight_color} -value {Orange}
+gui_highlight_signals -color_id 4 {{tb_pipelined_mips.inst_addr[31:0]}} 
+gui_marker_move -id  Wave.1 C1 876621
+gui_marker_move -id  Wave.1 C1 863023
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.data_addr[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}   }
+gui_marker_move -id  Wave.1 C1 910000
+gui_wv_scroll_hslidermove -id  Wave.1 1192
+gui_wv_scroll_hslidermove -id  Wave.1 6603
+gui_wv_scroll_hslidermove -id  Wave.1 1208
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after tb_pipelined_mips.data_wr {{tb_pipelined_mips.inst_addr[31:0]}} 
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_MEM[31:0]}   }
+gui_list_select -id Wave.1 -selected  { tb_pipelined_mips.data_wr   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_IF[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.data_in[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.data_out[31:0]}   }
+gui_list_select -id Wave.1 -selected  { tb_pipelined_mips.data_wr   }
+gui_marker_move -id  Wave.1 C1 290000
+gui_marker_move -id  Wave.1 C1 310000
+gui_marker_move -id  Wave.1 C1 270000
+gui_marker_move -id  Wave.1 C1 334000
+gui_marker_move -id  Wave.1 C1 329528
+gui_wv_scroll_hslidermove -id  Wave.1 4915
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}   }
+gui_wv_scroll_hslidermove -id  Wave.1 6471
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_IF[31:0]}   }
+gui_wv_scroll_hslidermove -id  Wave.1 1539
+gui_wv_scroll_hslidermove -id  Wave.1 1175
+gui_wv_scroll_hslidermove -id  Wave.1 1903
+gui_wv_scroll_hslidermove -id  Wave.1 1142
+gui_wv_scroll_hslidermove -id  Wave.1 2284
+gui_wv_scroll_hslidermove -id  Wave.1 2002
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_ID[31:0]}   }
+gui_wv_scroll_hslidermove -id  Wave.1 1026
+gui_wv_scroll_hslidermove -id  Wave.1 1837
+gui_wv_scroll_hslidermove -id  Wave.1 1076
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_WB[31:0]}   }
+gui_marker_move -id  Wave.1 C1 290000
+gui_wv_scroll_hslidermove -id  Wave.1 1258
+gui_wv_scroll_hslidermove -id  Wave.1 1523
+gui_marker_move -id  Wave.1 C1 357960
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_ID[31:0]}   }
+gui_marker_move -id  Wave.1 C1 310000
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_addrB[4:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.UUT.R1.rd_dataB[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_ID[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_MEM[31:0]}   }
+gui_marker_move -id  Wave.1 C1 350000
+gui_wv_scroll_hslidermove -id  Wave.1 1556
+gui_marker_move -id  Wave.1 C1 380564
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_ID[31:0]}   }
+gui_marker_move -id  Wave.1 C1 402638
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_WB[31:0]}   }
+gui_wv_scroll_hslidermove -id  Wave.1 1721
+gui_marker_move -id  Wave.1 C1 460562
+gui_wv_scroll_hslidermove -id  Wave.1 4551
+gui_marker_move -id  Wave.1 C1 924126
+gui_wv_scroll_hslidermove -id  Wave.1 4683
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_IF[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_ID[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.pc_EXE[31:0]}   }
+gui_marker_move -id  Wave.1 C1 950000
+gui_marker_move -id  Wave.1 C1 970000
+gui_wv_scroll_hslidermove -id  Wave.1 6305
+gui_marker_move -id  Wave.1 C1 1200851
+gui_marker_move -id  Wave.1 C1 1190000
+gui_list_select -id Wave.1 -selected  { {tb_pipelined_mips.inst_addr[31:0]}   }
+gui_marker_move -id  Wave.1 C1 1230000
+gui_wv_scroll_hslidermove -id  Wave.1 1357
+gui_marker_move -id  Wave.1 C1 298623
+gui_marker_move -id  Wave.1 C1 344538
+gui_marker_move -id  Wave.1 C1 338711
+gui_marker_move -id  Wave.1 C1 343479
+gui_marker_move -id  Wave.1 C1 341006
+gui_marker_select -id  Wave.1 { C1 }
+gui_marker_move -id  Wave.1 C1 339240
+gui_marker_move -id  Wave.1 C1 340123
+gui_marker_move -id  Wave.1 C1 355840
+gui_marker_move -id  Wave.1 C1 360609
+gui_wv_scroll_hslidermove -id  Wave.1 1854
+gui_marker_move -id  Wave.1 C1 461268
+gui_wv_scroll_hslidermove -id  Wave.1 3657
+gui_open_db -file /home/mark.allen.agaton/CoE113/lab4_2/lab4/sim/pipelined_mips_mapped.vpd -design V2
+gui_list_select -id Hier.1 -current_item_name V2:tb_pipelined_mips -current_item_type Scope  -selected  { V2:tb_pipelined_mips   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}  {V2:tb_pipelined_mips.pc_WB[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}  {V2:tb_pipelined_mips.pc_WB[31:0]}  V2:tb_pipelined_mips.data_wr   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}  {V2:tb_pipelined_mips.pc_WB[31:0]}  V2:tb_pipelined_mips.data_wr  {V2:tb_pipelined_mips.data_out[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}  {V2:tb_pipelined_mips.pc_WB[31:0]}  V2:tb_pipelined_mips.data_wr  {V2:tb_pipelined_mips.data_out[31:0]}  {V2:tb_pipelined_mips.data_in[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}  {V2:tb_pipelined_mips.pc_WB[31:0]}  V2:tb_pipelined_mips.data_wr  {V2:tb_pipelined_mips.data_out[31:0]}  {V2:tb_pipelined_mips.data_in[31:0]}  {V2:tb_pipelined_mips.data_addr[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V2:tb_pipelined_mips.pc_IF[31:0]}  {V2:tb_pipelined_mips.pc_EXE[31:0]}  {V2:tb_pipelined_mips.pc_ID[31:0]}  {V2:tb_pipelined_mips.pc_MEM[31:0]}  {V2:tb_pipelined_mips.pc_WB[31:0]}  V2:tb_pipelined_mips.data_wr  {V2:tb_pipelined_mips.data_out[31:0]}  {V2:tb_pipelined_mips.data_in[31:0]}  {V2:tb_pipelined_mips.data_addr[31:0]}  {V2:tb_pipelined_mips.inst_addr[31:0]}   }
+gui_list_select -id Data.1 { V2:tb_pipelined_mips.clk   }
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { V2:tb_pipelined_mips.clk {V2:tb_pipelined_mips.inst_addr[31:0]} {V2:tb_pipelined_mips.data_addr[31:0]} {V2:tb_pipelined_mips.data_in[31:0]} {V2:tb_pipelined_mips.data_out[31:0]} V2:tb_pipelined_mips.data_wr {V2:tb_pipelined_mips.pc_IF[31:0]} {V2:tb_pipelined_mips.pc_ID[31:0]} {V2:tb_pipelined_mips.pc_EXE[31:0]} {V2:tb_pipelined_mips.pc_MEM[31:0]} {V2:tb_pipelined_mips.pc_WB[31:0]} } -insertionbar
+gui_zoom -window Wave.2 -full
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 2
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5

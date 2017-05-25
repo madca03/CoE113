@@ -1,0 +1,5 @@
+/home/mark.allen.agaton/CoE113/lab4/rtl/datamem.v
+/home/mark.allen.agaton/CoE113/lab4/rtl/defines.h
+/home/mark.allen.agaton/CoE113/lab4/rtl/instmem.v
+/home/mark.allen.agaton/CoE113/lab4/rtl/pipelined_mips.v
+/home/mark.allen.agaton/CoE113/lab4/sim/tb_pipelined_mips.v

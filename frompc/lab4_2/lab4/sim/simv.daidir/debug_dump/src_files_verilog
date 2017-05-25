@@ -1,0 +1,5 @@
+/home/mark.allen.agaton/CoE113/lab4_2/lab4/lib/saed90nm.v
+/home/mark.allen.agaton/CoE113/lab4_2/lab4/mapped/pipelined_mips_mapped.v
+/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/datamem.v
+/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/instmem.v
+/home/mark.allen.agaton/CoE113/lab4_2/lab4/sim/tb_pipelined_mips.v

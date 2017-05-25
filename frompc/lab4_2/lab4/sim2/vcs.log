@@ -1,0 +1,175 @@
+Command: vcs ../rtl/instmem.v ../rtl/datamem.v ../rtl/pipelined_mips.v tb_pipelined_mips.v \
+../rtl/defines.h -debug_pp -full64 +neg_tchk -R -l vcs.log
+                         Chronologic VCS (TM)
+         Version I-2014.03_Full64 -- Tue Apr 18 16:37:25 2017
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/instmem.v'
+Parsing design file '../rtl/datamem.v'
+Parsing design file '../rtl/pipelined_mips.v'
+
+Warning-[TMR] Text macro redefined
+../rtl/pipelined_mips.v, 3
+  Text macro (MEM_DEPTH) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/datamem.v, 2, it was defined as 1024
+
+
+Warning-[TMR] Text macro redefined
+../rtl/pipelined_mips.v, 4
+  Text macro (MEM_WIDTH) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/datamem.v, 3, it was defined as 8
+
+
+Warning-[TMR] Text macro redefined
+../rtl/pipelined_mips.v, 5
+  Text macro (INPUT_DELAY) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/instmem.v, 6, it was defined as 4
+
+Parsing design file 'tb_pipelined_mips.v'
+Parsing included file 'defines.h'.
+
+Warning-[TMR] Text macro redefined
+defines.h, 2
+  Text macro (INPUT_DELAY) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/pipelined_mips.v, 5, it was defined as 5
+
+Back to file 'tb_pipelined_mips.v'.
+
+Warning-[CIWC] Ignored /* within /* */ comment
+  Nested comments is found. Ignoring nested '/*'. 
+  /*
+  ^
+  "tb_pipelined_mips.v", 230
+
+Parsing design file '../rtl/defines.h'
+
+Warning-[TMR] Text macro redefined
+../rtl/defines.h, 2
+  Text macro (INPUT_DELAY) is redefined. The last definition will override 
+  previous ones.
+  In defines.h, 2, it was defined as 4
+
+Top Level Modules:
+       tb_pipelined_mips
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+tb_pipelined_mips.v, 14
+"pipelined_mips UUT( .clk (clk),  .rst_n (rst_n),  .inst_addr (inst_addr),  .inst (inst),  .data_addr (data_addr),  .data_in (data_in),  .data_out (data_out),  .data_wr (data_wr));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module tb_pipelined_mips
+rm -f _csrc*.so amd64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive \
+
+ld -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir \
+_csrc1.so _csrc0.so     rmapats_mop.o rmapats.o rmar.o           /usr/synopsys/vcs/I-2014.03/amd64/lib/libzerosoft_rt_stubs.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so    /usr/synopsys/vcs/I-2014.03/amd64/lib/libvcsnew.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libuclinative.so   -Wl,-whole-archive /usr/synopsys/vcs/I-2014.03/amd64/lib/libvcsucli.so \
+-Wl,-no-whole-archive          /usr/synopsys/vcs/I-2014.03/amd64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Command: ./simv +neg_tchk -a vcs.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03_Full64; Runtime version I-2014.03_Full64;  Apr 18 16:37 2017
+
+
+    DATAMEM   MEMREF       COMPARE      REGFILE
+00: 8c010000  8c010000         --- 
+01: 8c020004  8c020004         --- 
+02: 8c030008  8c030008         --- 
+03: 00000000  00000000     CORRECT 
+04: 8c010000  ac010010    ERR_LWSW 
+05: 00000000  00000000         --- 
+06: ac620008  ac620008     CORRECT 
+07: 18020000  8c040014     ERR_ADD 
+08: 18040008  00212820     ERR_ADD 
+09: 18030004  00423020     ERR_ADD 
+10: 18030004  00223820     ERR_ADD 
+11: 00414020  00414020     CORRECT 
+12: ac83fff8  ac83fff8     CORRECT 
+13: ac05001c  ac05001c     CORRECT 
+14: ac060020  ac060020     CORRECT 
+15: 00000000  ac070024     ERR_SUB 
+16: 00000000  ac080028     ERR_SUB 
+17: fffefffc  00212822     ERR_SUB 
+18: 00010004  00423022     ERR_SUB 
+19: 00000001  00223822     ERR_SLT 
+20: 00000000  00414022     ERR_SLT 
+21: 8c030044  ac05003c    ERR_ADDI 
+22: fffffff0  ac060040    ERR_ADDI 
+23: ffff8001  ac070044    ERR_ADDI 
+24: 00000001  ac080048    ERR_SLTI 
+25: 00000001  0022282a    ERR_SLTI 
+26: 00000001  0041302a    ERR_SLTI 
+27: 00000000  00000000     CORRECT 
+28: 00000000  00000000     CORRECT 
+29: ac05004c  ac05004c     CORRECT 
+30: ac060050  ac060050     CORRECT 
+31: 2067003c  2067003c     CORRECT 
+32: 2088fff0  2088fff0     CORRECT 
+33: 20a98000  20a98000     CORRECT 
+34: 00000000  00000000     CORRECT 
+35: 8c020004  00000000    ERR_JUMP 
+36: 8c030008  ac070054    ERR_JUMP 
+37: 00000000  ac080058    ERR_JUMP 
+38: 8c010000  ac09005c         --- 
+39: 28277fff  28277fff     CORRECT 
+40: 8c010000  28488000     ERR_JAL 
+41: 000000f0  28890014     ERR_JAL 
+42: 8c010000  00000000     ERR_JAL 
+43: 8c020004  00000000     ERR_JAL 
+44: 8c030008  ac070060     ERR_JAL 
+45: ac080064  ac080064     CORRECT 
+46: 18020000  ac090068      ERR_JR 
+47: 18040008  8c090008      ERR_JR 
+48: 18020000  00000000      ERR_JR 
+49: 8c010000  00000000     ERR_BEQ 
+50: 8c020004  00000000     ERR_BEQ 
+51: 8c030008  08000c37     ERR_BEQ 
+52: 8c010000  00215020     ERR_BNE 
+53: 8c020004  ac0a0084     ERR_BNE 
+54: 8c030008  ac010088     ERR_BNE 
+55: 00000000  ac02008c     ERR_BNE 
+56: 8c010000  ac030090     ERR_BNE 
+57: ac0a0094  ac0a0094         --- 
+58: ac010098  ac010098         --- 
+59: 0c000c41  0c000c41         --- 
+
+=============== RESULTS ================
+	LW/SW:	FAILED - 2 / 3
+	ADD:	FAILED - 0 / 4	
+	SUB:	FAILED - 0 / 4	
+	SLT:	FAILED - 0 / 2	
+	ADDI:	FAILED - 0 / 3	
+	SLTI:	FAILED - 0 / 3	
+	BEQ:	FAILED - 5 / 8	
+	BNE:	FAILED - 5 / 10	
+	JUMP:	FAILED - 2 / 5	
+	JAL:	FAILED - 0 / 5	
+	JR:	FAILED - 2 / 5	
+========================================
+$finish called from file "tb_pipelined_mips.v", line 242.
+$finish at simulation time             12216000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 12216000 ps
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Tue Apr 18 16:37:52 2017
+CPU time: .139 seconds to compile + .038 seconds to elab + .174 seconds to link + .167 seconds in simulation

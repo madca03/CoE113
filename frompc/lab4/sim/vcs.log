@@ -1,0 +1,163 @@
+Command: vcs ../rtl/instmem.v ../rtl/datamem.v ../rtl/pipelined_mips.v tb_pipelined_mips.v \
+../rtl/defines.h -debug_pp -full64 +neg_tchk -R -l vcs.log
+                         Chronologic VCS (TM)
+         Version I-2014.03_Full64 -- Tue Apr 18 15:35:36 2017
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/instmem.v'
+Parsing design file '../rtl/datamem.v'
+Parsing design file '../rtl/pipelined_mips.v'
+
+Warning-[TMR] Text macro redefined
+../rtl/pipelined_mips.v, 3
+  Text macro (MEM_DEPTH) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/datamem.v, 2, it was defined as 1024
+
+
+Warning-[TMR] Text macro redefined
+../rtl/pipelined_mips.v, 4
+  Text macro (MEM_WIDTH) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/datamem.v, 3, it was defined as 8
+
+
+Warning-[TMR] Text macro redefined
+../rtl/pipelined_mips.v, 5
+  Text macro (INPUT_DELAY) is redefined. The last definition will override 
+  previous ones.
+  In ../rtl/instmem.v, 6, it was defined as 4
+
+Parsing design file 'tb_pipelined_mips.v'
+Parsing design file '../rtl/defines.h'
+Top Level Modules:
+       tb_pipelined_mips
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+1 module and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+rm -f _csrc*.so amd64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared -o .//../simv.daidir//_csrc0.so SIM_l.o 5NrI_d.o 5NrIB_d.o  
+ld -shared -o .//../simv.daidir//pre_vcsobj_1_1.so --whole-archive pre_vcsobj_1_1.a \
+--no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir \
+_csrc0.so   pre_vcsobj_1_1.so  rmapats_mop.o rmapats.o rmar.o           /usr/synopsys/vcs/I-2014.03/amd64/lib/libzerosoft_rt_stubs.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libvirsim.so /usr/synopsys/vcs/I-2014.03/amd64/lib/liberrorinf.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libsnpsmalloc.so    /usr/synopsys/vcs/I-2014.03/amd64/lib/libvcsnew.so \
+/usr/synopsys/vcs/I-2014.03/amd64/lib/libuclinative.so   -Wl,-whole-archive /usr/synopsys/vcs/I-2014.03/amd64/lib/libvcsucli.so \
+-Wl,-no-whole-archive          /usr/synopsys/vcs/I-2014.03/amd64/lib/vcs_save_restore_new.o \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+Command: ./simv +neg_tchk -a vcs.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03_Full64; Runtime version I-2014.03_Full64;  Apr 18 15:35 2017
+VCD+ Writer I-2014.03_Full64 Copyright (c) 1991-2014 by Synopsys Inc.
+
+Warning-[STASKW_RMIEAFL] Illegal entry
+tb_pipelined_mips.v, 158
+  Illegal entry found at file ./datamem_ans.txt line 129 while executing 
+  $readmem.
+  Please ensure that the file has proper entries.
+
+          0 - 00000000 - 0011abcd - 0011abcd
+          1 - 00000004 - ffff0101 - ffff0101
+          2 - 00000008 - 00000004 - 00000004
+          3 - 0000000c - ffff0101 - ffff0101
+          4 - 00000010 - 0011abcd - 0011abcd
+          5 - 00000014 - 00000020 - 00000020
+          6 - 00000018 - 00000004 - 00000004
+          7 - 0000001c - 0023579a - 0023579a
+          8 - 00000020 - fffe0202 - fffe0202
+          9 - 00000024 - 0010acce - 0010acce
+         10 - 00000028 - 0010acce - 0010acce
+         11 - 0000002c - 00000000 - 00000000
+         12 - 00000030 - ffff0101 - ffff0101
+         13 - 00000034 - 0011abcd - 0011abcd
+         14 - 00000038 - 0011abcd - 0011abcd
+         15 - 0000003c - 00000000 - 00000000
+         16 - 00000040 - 00000000 - 00000000
+         17 - 00000044 - 0012aacc - 0012aacc
+         18 - 00000048 - ffed5534 - ffed5534
+         19 - 0000004c - 00000000 - 00000000
+         20 - 00000050 - 00000001 - 00000001
+         21 - 00000054 - 00000000 - 00000000
+         22 - 00000058 - 00000000 - 00000000
+         23 - 0000005c - 00000000 - 00000000
+         24 - 00000060 - 0011abcd - 0011abcd
+         25 - 00000064 - 0011abcd - 0011abcd
+         26 - 00000068 - 0011abcd - 0011abcd
+         27 - 0000006c - 00000000 - 00000000
+         28 - 00000070 - 0011abcd - 0011abcd
+         29 - 00000074 - 00000000 - 00000000
+         30 - 00000078 - 00000000 - 00000000
+         31 - 0000007c - 0011abcd - 0011abcd
+         32 - 00000080 - 00000000 - 00000000
+         33 - 00000084 - 0011abcd - 0011abcd
+         34 - 00000088 - 000000f8 - 00003104
+         35 - 0000008c - 00000000 - 00000000
+         36 - 00000090 - 00000000 - 00000000
+         37 - 00000094 - 0011abcd - 0011abcd
+         38 - 00000098 - 0000010c - 00003118
+         39 - 0000009c - ffff0101 - ffff0101
+         40 - 000000a0 - 0011abcd - 0011abcd
+         41 - 000000a4 - 00000130 - 0000313c
+         42 - 000000a8 - 00000000 - 00000000
+         43 - 000000ac - 00000000 - 00000000
+         44 - 000000b0 - 00000000 - 00000000
+         45 - 000000b4 - 00000000 - 00000000
+         46 - 000000b8 - 00000001 - 00000001
+         47 - 000000bc - 00000001 - 00000001
+         48 - 000000c0 - 0011be01 - 0011be01
+         49 - 000000c4 - ffff5779 - ffff5779
+         50 - 000000c8 - 00122bcc - 00122bcc
+         51 - 000000cc - ffff0101 - ffff0101
+         52 - 000000d0 - 000001a8 - 000031b4
+         53 - 000000d4 - 00000000 - 00000000
+         54 - 000000d8 - 00000000 - 00000000
+         55 - 000000dc - 0011abcd - 0011abcd
+         56 - 000000e0 - 0011abcd - 0011abcd
+         57 - 000000e4 - 0011abcd - 0011abcd
+         58 - 000000e8 - ffff0101 - ffff0101
+         59 - 000000ec - 00000000 - 00000000
+         60 - 000000f0 - ffff0101 - ffff0101
+         61 - 000000f4 - 00000000 - 00000000
+         62 - 000000f8 - 00000000 - 00000000
+         63 - 000000fc - 00000000 - 00000000
+         64 - 00000100 - 00000000 - 00000000
+         65 - 00000104 - 00000000 - 00000000
+         66 - 00000108 - 00000000 - 00000000
+         67 - 0000010c - 00000000 - 00000000
+         68 - 00000110 - 00000000 - 00000000
+         69 - 00000114 - 00000000 - 00000000
+         70 - 00000118 - 00000000 - 00000000
+         71 - 0000011c - 00000000 - 00000000
+         72 - 00000120 - 00000000 - 00000000
+         73 - 00000124 - 00000000 - 00000000
+         74 - 00000128 - 00000000 - 00000000
+
+
+	LW/SW:	           3 / 3
+	ADD:	           4 / 4
+	ADDI:	           4 / 5
+	SUB:	           4 / 4
+	SLT:	           2 / 2
+	SLTI:	           5 / 5
+	BEQ:	           7 / 7
+	BNE:	           5 / 5
+	JUMP:	           7 / 7
+	JAL:	           7 / 10
+	JR:	           5 / 5
+$finish called from file "tb_pipelined_mips.v", line 154.
+$finish at simulation time              2656000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2656000 ps
+CPU Time:      0.150 seconds;       Data structure size:   0.0Mb
+Tue Apr 18 15:35:45 2017
+CPU time: .085 seconds to compile + .012 seconds to elab + .108 seconds to link + .180 seconds in simulation

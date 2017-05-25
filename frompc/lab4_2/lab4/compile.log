@@ -1,0 +1,571 @@
+read_verilog pipelined_mips.v
+Loading db file '/home/mark.allen.agaton/CoE113/lab4_2/lab4/lib/saed90nm_typ.db'
+Loading db file '/usr/synopsys/syn/I-2013.12/libraries/syn/gtech.db'
+Loading db file '/usr/synopsys/syn/I-2013.12/libraries/syn/standard.sldb'
+  Loading link library 'saed90nm_typ'
+  Loading link library 'gtech'
+Loading verilog file '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v
+Warning:  /home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v:445: delays for continuous assignment are ignored. (VER-173)
+Warning:  /home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v:448: delays for continuous assignment are ignored. (VER-173)
+Warning:  /home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v:451: delays for continuous assignment are ignored. (VER-173)
+
+Statistics for case statements in always block at line 121 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           125            |    auto/auto     |
+|           127            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 147 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           152            |    auto/auto     |
+|           154            |    auto/auto     |
+|           169            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 209 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           213            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 237 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           241            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 255 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           259            |     no/auto      |
+|           262            |     no/auto      |
+===============================================
+
+Statistics for case statements in always block at line 279 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           286            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 293 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           300            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 384 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           385            |     no/auto      |
+|           388            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 121 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   flush_jump_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 147 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    inst_addr_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 185 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| if_id_inst_addr_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 205 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  id_exe_aluOpA_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 209 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  id_exe_aluOpB_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 225 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| id_exe_storeOp_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 229 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   id_exe_inst_reg   | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 233 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| id_exe_inst_addr_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 237 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| id_exe_wr_addr_reg  | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 255 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  id_exe_aluSel_reg  | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 279 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| id_exe_data_wr_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 293 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  id_exe_wr_en_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 314 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| exe_mem_storeOp_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 318 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| exe_mem_wr_addr_reg | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 322 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  exe_mem_inst_reg   | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 326 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+| exe_mem_inst_addr_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 330 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  exe_mem_wr_en_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 334 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| exe_mem_data_wr_reg | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 338 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| exe_mem_aluRes_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 342 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| exe_mem_aluNeg_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 346 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  exe_mem_aluZ_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 357 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   mem_wb_inst_reg   | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 361 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| mem_wb_inst_addr_reg | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 365 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| mem_wb_wr_addr_reg  | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 369 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  mem_wb_wr_en_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 373 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  mem_wb_aluRes_reg  | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 377 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  mem_wb_aluNeg_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 384 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+| mem_wb_wr_data_reg  | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Statistics for case statements in always block at line 439 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           440            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine alu line 439 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    res_temp_reg     | Latch |  32   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Statistics for case statements in always block at line 535 in file
+        '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           572            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine rf line 535 in file
+                '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      regf_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+===========================================================
+| block name/line  | Inputs | Outputs | # sel inputs | MB |
+===========================================================
+|      rf/577      |   32   |   32    |      5       | N  |
+|      rf/578      |   32   |   32    |      5       | N  |
+===========================================================
+Presto compilation completed successfully.
+Current design is now '/home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.db:pipelined_mips'
+Loaded 3 designs.
+Current design is 'pipelined_mips'.
+pipelined_mips alu rf
+current_design pipelined_mips
+Current design is 'pipelined_mips'.
+{pipelined_mips}
+link
+
+  Linking design 'pipelined_mips'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (3 designs)               /home/mark.allen.agaton/CoE113/lab4_2/lab4/rtl/pipelined_mips.db, etc
+  saed90nm_typ (library)      /home/mark.allen.agaton/CoE113/lab4_2/lab4/lib/saed90nm_typ.db
+
+1
+check_design > check_design.log
+source timing.con
+1
+compile
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | I-2013.12-DWBB_201312.0 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 39 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'alu'
+  Processing 'rf'
+Information: The register 'regf_reg[0][31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'regf_reg[0][0]' is a constant and will be removed. (OPT-1206)
+  Processing 'pipelined_mips'
+Information: The register 'id_exe_aluSel_reg[1]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'pipelined_mips_DW01_add_0'
+  Processing 'pipelined_mips_DW01_add_1'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW01_add_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   98107.4      0.00       0.0       0.0                          
+    0:00:07   98107.4      0.00       0.0       0.0                          
+    0:00:07   98107.4      0.00       0.0       0.0                          
+    0:00:07   98107.4      0.00       0.0       0.0                          
+    0:00:07   98107.4      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:07   93438.0      0.00       0.0       0.0                          
+    0:00:08   93276.6      0.00       0.0       0.0                          
+    0:00:08   93219.9      0.00       0.0       0.0                          
+    0:00:08   93063.8      0.00       0.0       0.0                          
+    0:00:08   93043.5      0.00       0.0       0.0                          
+    0:00:09   93040.6      0.00       0.0       0.0                          
+    0:00:09   93040.6      0.00       0.0       0.0                          
+    0:00:09   93040.6      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+    0:00:09   93038.7      0.00       0.0       0.0                          
+Loading db file '/home/mark.allen.agaton/CoE113/lab4_2/lab4/lib/saed90nm_typ.db'
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'pipelined_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk': 1415 load(s), 1 driver(s)
+1
+report_constraint -all_violators > constraint_report.log
+report_area > area_report.log
+report_timing > timing_report.log
+write_sdf -version 1.0 mapped/pipelined_mips_mapped.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/mark.allen.agaton/CoE113/lab4_2/lab4/mapped/pipelined_mips_mapped.sdf'. (WT-3)
+1
+write -f verilog -hier -out mapped/pipelined_mips_mapped.v
+Writing verilog file '/home/mark.allen.agaton/CoE113/lab4_2/lab4/mapped/pipelined_mips_mapped.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+quit
+
+Thank you...
+
